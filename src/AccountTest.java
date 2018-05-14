@@ -6,7 +6,7 @@ public class AccountTest {
         Scanner input = new Scanner(System.in);
 
         //create account instance
-        Account account = new Account();
+        Account account = new Account("Earl Perez");
 
         //Display default account info
         System.out.printf("Initial name is %s%n%n",account.getAccountName());

@@ -1,4 +1,8 @@
 public class Account {
+    public Account(String accountName) {
+        this.accountName = accountName;
+    }
+
     public String getAccountName() {
         return accountName;
     }
