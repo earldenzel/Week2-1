@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class AccountTest {
     public static void main(String[] args) {
+        /*
         //read user input
         Scanner input = new Scanner(System.in);
 
@@ -18,6 +19,13 @@ public class AccountTest {
 
         //Display info
         System.out.printf("New name is %s%n%n",account.getAccountName());
+        */
+
+        Account account1 = new Account("Earl Perez", 1000);
+        Account account2 = new Account("Earl Denzel Perez", -7.50);
+
+        System.out.printf("%s balance: $%.2f%n", account1.getAccountName(), account1.getBalance());
+        System.out.printf("%s balance: $%.2f%n", account2.getAccountName(), account2.getBalance());
 
     }
 }
