@@ -1,3 +1,5 @@
+package Week2;
+
 public class Account {
     private String accountName;
     private double balance;
